@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 35px;
+}
+#container {
+  width: 348px;
+}
+img {
+  width: 175px;
+  height: 51px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 268px;
+  height: 38px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+}
+
+button {
+  width: 268px;
+  height: 29.6px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: transparent;
+  color: rgba(var(--eca, 255, 255, 255), 1);
+  background-color: #0095f6;
+  opacity: 1;
+}
+
+button hover{
+  color: #013361;
+}
+
+
+#signIn {
+  background-color: #fff;
+  width: 350px;
+  height: 378.3px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #dbdbdb;
+  justify-content: center;
+}
+#noAccountDiv {
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  height: 62.6px;
+}
+.traco {
+  width: 106.25px;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+#ou {
+  display: flex;
+  align-items: center;
+}
+.ouText {
+  color: #8e8e8e;
+  margin: 0 18px;
+  font-size: 13px;
+  font-weight: 700;
+}
+svg {
+  color: #3b5990;
+  margin-right: 10px;
+}
+
+.entryFacebook {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+#facebook {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+span {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  color: #385185;
+  margin-top: 20px;
+  justify-content: center;
+}
+.forgotPassword {
+  font-weight: 400;
+  font-size: 12px;
+  color: #00376b;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.noAccount {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.signUp {
+  font-weight: 600;
+  color: #0095f6;
+}
